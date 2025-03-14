@@ -1,2 +1,14 @@
 @import "tailwindcss";
 
+#header {
+    margin-top: 0;
+    line-height: 20px;
+    
+    
+}
+
+#header.img {
+    margin-left: 2em;
+    place-items: end;
+}
+

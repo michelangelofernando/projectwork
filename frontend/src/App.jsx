@@ -1,6 +1,9 @@
-import './App.css'
-import Card from './components/card'
-import { Header } from './components/header'
+import './App.css';
+import { Header } from './components/header';
+import Card from './components/card';
+import Register from './components/Register';
+import './styles/style.css';
+
 
 function App() {
 
@@ -8,11 +11,7 @@ function App() {
     <>
       <Header/>
       <Card/>
-      <h1 className='bg-gray-300'>Vite + React</h1>
       
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
 
     </>
   )
